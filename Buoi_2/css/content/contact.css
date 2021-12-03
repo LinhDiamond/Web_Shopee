@@ -1,0 +1,19 @@
+.l-contact{
+    padding: 32px 16px;
+    color: #000;
+}
+.l-contact .l-contact-btn{
+    padding: 8px 16px;
+    margin: 16px 0;
+    text-align: center;
+    font-size: 15px;
+    font: inherit;
+    color: #fff;
+    background-color: #000;
+    cursor: pointer;
+    border: none;
+}
+.l-contact .l-contact-btn:hover{
+    background-color: #ccc;
+    color: #000;
+}

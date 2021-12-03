@@ -1,0 +1,13 @@
+.l-contact-section .l-btn{
+    font-size: 15px !important;
+    color: #000;
+    background-color: #f1f1f1;
+    padding: 10px 16px;
+    margin: 16px 0;
+    outline: unset;
+    border:none;
+    cursor: pointer;
+}
+.l-contact-section .l-btn:hover{
+    background-color: #ccc;
+}

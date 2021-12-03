@@ -1,0 +1,18 @@
+@import url('../Content/font/GoogleSans-Regular.otf');
+@import url('../Content/font/GoogleSans-Italic.otf');
+@import url('../Content/font/GoogleSans-Bold.otf');
+@import url('../Content/font/fontawesome-5.15.1/css/all.min.css');
+@import url('../Content/font/fontawesome-5.15.1/css/fontawesome.css');
+@import url('../css/header.css');
+@import url('../css/img.css');
+@import url('../css/content.css');
+@import url('../css/contact.css');
+@import url('../css/input.css');
+@import url('../css/button.css');
+@import url('../css/footer.css');
+
+body{
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.5;
+}

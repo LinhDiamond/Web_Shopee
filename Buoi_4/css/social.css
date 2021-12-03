@@ -1,0 +1,14 @@
+.l-card-social{
+    margin-top: 25px;  
+    margin-bottom: 30px;
+}
+a{
+    margin: 25px 20px 40px;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.25s;
+}
+a:hover{
+    color: #f2726a;
+}

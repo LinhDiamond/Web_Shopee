@@ -1,0 +1,11 @@
+.l-input{
+    width: 100%;
+}
+ input
+{
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 16px;
+    font: inherit;
+}

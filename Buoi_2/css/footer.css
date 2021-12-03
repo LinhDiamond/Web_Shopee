@@ -1,0 +1,15 @@
+.l-footer{
+    padding: 32px 0;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    margin: 0px;
+    box-sizing: inherit;
+}
+.l-footer a{
+    color: #fff;
+    cursor: pointer;
+}
+.l-footer a:hover{
+    color: rgb(28, 197, 28) ;
+}

@@ -1,0 +1,12 @@
+.l-img{
+    width: 90%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+.l-productcard:hover img{
+    transform: translateY(-90px) rotate(-20deg);
+}

@@ -1,0 +1,17 @@
+.l-footer{
+    padding: 32px 0;
+    background-color: #f1f1f1;
+    text-align: center;
+    font-size: 15px;
+    color: #000;
+}
+.l-footer .l-footer-text{
+    margin: 15px 0;
+}
+.l-footer .l-footer-text>a{
+    cursor: pointer;
+    color: #000;
+}
+.l-footer .l-footer-text>a:hover{
+    color: rgb(28, 197, 28) ;
+}

@@ -1,0 +1,19 @@
+@import url('../Content/font/fontawesome-5.15.1/css/all.min.css');
+@import url('../Content/font/fontawesome-5.15.1/css/fontawesome.css');
+@import url('../css/header.css');
+@import url('../css/img.css');
+@import url('../css/content/project.css');
+@import url('../css/content/content.css');
+@import url('../css/content/input.css');
+@import url('../css/content/contact.css');
+@import url('../css/footer.css');
+
+
+body{
+    font-family: Verdana,  sans-serif;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    font-size: 15px;
+    line-height: 1.5;
+}

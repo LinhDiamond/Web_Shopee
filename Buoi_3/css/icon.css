@@ -1,0 +1,11 @@
+.l-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.like{
+    font-size: 22px;
+}
+.cart{
+    font-size: 22px;
+}

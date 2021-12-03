@@ -1,0 +1,71 @@
+
+.l-content-after{
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+.l-img-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+.l-house{
+  margin: 0 8px;
+  width: calc(25% - 20px);
+}
+.l-house .l-img-house{
+    width: 100%;
+    height: 194px;
+    border:none;
+    margin-bottom: 16px !important;
+    position: relative;
+}
+.l-house .l-imghouse-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    padding: 8px 16px;
+    color: #fff;
+}
+
+/* Ảnh tác giả */
+.img-name{
+    width: 100%;
+    height: 194px;
+    border:none;
+}
+.l-house h3{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.l-house .l-opacity{
+    margin: 15px 0;
+    opacity: 0.6;
+}
+.l-house .l-btn{
+    color: #000;
+    font-size: 15px;
+    background-color: #f1f1f1 ;
+    width: 100%;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    margin-top: 15px;
+    cursor: pointer;
+    font: inherit;
+}
+.l-house .l-btn:hover{
+    background-color: #ccc;
+}
+
+/* ẢNh footer */
+
+.img-footer{
+    width: calc(100% - 32px);
+    padding: 0 16px;
+} 
+
+

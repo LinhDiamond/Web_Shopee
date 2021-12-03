@@ -1,0 +1,17 @@
+.l-img{
+    background-image: url(../Content/img/hamburger.jpg);
+    width: 1349px;
+    height: 675px;
+    position: relative;
+    margin: 0 auto;
+    
+}
+.l-img .l-img-text{
+    position: absolute;
+    left: 16px;
+    bottom: 0;
+    font-size: 36px ;
+    margin: 10px 0;
+    letter-spacing: 5px;
+    font-weight: 300;
+}

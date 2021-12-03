@@ -1,0 +1,54 @@
+@import url('../content/font/fontawesome-5.15.1/css/all.min.css');
+@import url('../css/icon.css');
+@import url('../css/img.css');
+@import url('../css/select.css');
+@import url('../css/button.css');
+@import url('../css/footer.css');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif ;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(90deg,#4daf54,#3d8880);
+    overflow: hidden;
+}
+.l-productcard{
+    width: 320px;
+    margin: 120px auto;
+    height: 400px;
+    padding: 15px 20px;
+    background-color: #272d40;
+    border-radius: 15px;
+    color: #fff;
+    position: relative;
+}
+
+/* l-text */
+h2{
+    color: #4daf54;
+    text-align: center;
+    font-weight: 400px;
+    margin-bottom: 5px;
+    transition: 0.5s;
+}
+.l-productcard:hover h2{
+    transform: translate(-40px, -72px);
+}
+
+/* l-money */
+.l-money{
+    text-align: center;
+    font-weight: 600;
+    font-size: 26px;
+    margin-bottom: 15px;
+    transition: 0.5s;
+}
+.l-productcard:hover .l-money{
+    transform: translate(-112px, -72px);
+}
