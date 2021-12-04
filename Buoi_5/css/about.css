@@ -24,6 +24,12 @@ p{
 .l-about-row .l-row-img{
     padding: 12px 24px;
 }
+.img-avatar{
+    opacity: 0.65;
+}
+.img-avatar:hover{
+    opacity: 1;
+}
 .l-about-row .l-row-img .row-img-myname{
     text-align: center;
     margin: 15px 0;

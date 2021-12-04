@@ -4,16 +4,19 @@
 @import url('../css/darkgrey.css');
 @import url('../css/protofolio.css');
 @import url('../css/mywork.css');
+@import url('../css/contact.css');
+@import url('../css/where.css');
+@import url('../css/footer.css');
 
 
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     height: 100%;
     color: #777;
     line-height: 1.8;
     font-family: sans-serif, Verdana;
-    box-sizing: border-box;
 }

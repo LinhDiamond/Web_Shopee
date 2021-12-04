@@ -12,14 +12,14 @@
  <body>
      <div class="l-menu">
          <div class="l-navbar">
-             <a href="#home" class="l-navbar-item">HOME</a>
+             <a href="#" class="l-navbar-item">HOME</a>
              <a href="#about" class="l-navbar-item"><i class="fa fa-user item"></i>ABOUT</a>
              <a href="#protfolio" class="l-navbar-item"><i class="fa fa-th item"></i>PORTFOLIO</a>
              <a href="#contact" class="l-navbar-item"><i class="fa fa-envelope item"></i>CONTACT</a>
-             <a href="#search" class="l-navbar-item item-search"><i class="fa fa-search"></i></a>
+             <a href="#" class="l-navbar-item item-search"><i class="fa fa-search"></i></a>
          </div>
      </div>
-     <div class="l-header">
+     <div class="l-header" id="home">
          <div class="l-img">
             <div class="img-text">
                 <div class="l-text">
@@ -30,7 +30,7 @@
             </div>
          </div>
      </div>
-     <div class="l-about">
+     <div class="l-about" id="about">
          <h3 class="text-center">ABOUT ME</h3>
          <p class="text-center"><em>I love photography</em></p>
          <p>We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer. Lorem ipsum dolor sit amet, consectetur 
@@ -107,10 +107,10 @@
             Meetings
         </div>
      </div>
-     <div class="l-protfolio">
+     <div class="l-protfolio" >
          <span>PORTFOLIO</span>
      </div>
-     <div class="l-work">
+     <div class="l-work" id="protfolio">
         <h3 class="text-center">MY WORK</h3>
         <p class="text-center">
             <em>
@@ -119,6 +119,98 @@
             Click on the images to make them bigger
             </em>
         </p>
+        <br>
+        <div class="work-img ">
+                <div class="work-img-col">
+                    <img src="./content/img/p1.jpg" style="width: 100%" alt="May nui">
+                </div>
+                <div class="work-img-col">
+                    <img src="./content/img/p2.jpg" style="width: 100%" alt="May nui">
+                </div>
+                <div class="work-img-col">
+                    <img src="./content/img/p3.jpg" style="width: 100%" alt="May nui">
+                </div>
+                <div class="work-img-col">
+                    <img src="./content/img/p4.jpg" style="width: 100%" alt="May nui">
+                </div>
+        </div>
+        <div class="work-section">
+            <div class="work-img">
+                <div class="work-img-col">
+                    <img src="./content/img/p5.jpg" style="width: 100%" alt="May nui">
+                </div>
+                <div class="work-img-col">
+                    <img src="./content/img/p6.jpg" style="width: 100%" alt="May nui">
+                </div>
+                <div class="work-img-col">
+                    <img src="./content/img/p7.jpg" style="width: 100%" alt="May nui">
+                </div>
+                <div class="work-img-col">
+                    <img src="./content/img/p8.jpg" style="width: 100%" alt="May nui">
+                </div>
+            </div>
+            <button type="submit">LOAD MORE</button>
+        </div>
+     </div>
+     <div class="l-protfolio l-contact">
+         <span>CONTACT</span>
+     </div>
+     <div class="l-where" id="contact">
+        <h3 class="text-center">WHERE I WORK</h3>
+        <p class="text-center"><em>I'd love your feedback!</em></p>
+        <div class="l-where-content">
+            <div class="where-img">
+                <img src="./content/img/map.jpg" alt="Map">
+            </div>
+            <div class="where-panel">
+                <div class="where-panel-large">
+                    <i class="fa fa-map-marker"></i>Chicago, US
+                    <br>
+                    <i class="fa fa-phone"></i>Phone: +00 151515
+                    <br>
+                    <i class="fa fa-envelope"></i>Email: mail@mail.com
+                    <br>
+                </div>
+                <p>
+                    Swing by for a cup of 
+                    <i class="fa fa-coffee"></i>
+                    , or leave me a note:
+                </p>
+                <div class="where-input">
+                    <div class="input-half">
+                        <div class="half-input">
+                            <input type="text" name="name" id=""  placeholder="Name">
+                        </div>
+                        <div class="half-input">
+                            <input type="email" name="email" id=""  placeholder="Email">
+                        </div>
+                    </div>
+                    <input type="text" name="Message" id=""  placeholder="Message">
+                </div>
+                <button type="submit">
+                    <i class="fa fa-paper-plane"></i> 
+                    SEND MESSAGE
+                </button>
+            </div>
+        </div>
+     </div>
+     <div class="l-footer">
+         <a href="#">
+             <i class="fa fa-arrow-up w3-margin-right"></i>
+             To the top
+         </a>
+         <div class="l-footer-section">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-snapchat-square"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+         </div>
+         <p>
+            Powered by 
+            <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a>
+         </p>
      </div>
  </body>
  </html>

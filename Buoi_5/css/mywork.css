@@ -1,5 +1,40 @@
 .l-work{
-    padding: 64px 5px;
+    padding: 64px 5px !important;
     margin: 0 184.5px;
     font-size: 15px;
+}
+.work-img{
+    text-align: center !important;
+    padding: 0 8px;
+    display: flex;
+}
+.work-img .work-img-col{
+    width: 24.9999%;
+    padding: 0 8px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.work-img .work-img-col img{
+    cursor: pointer;
+}
+.work-img .work-img-col img:hover{
+    opacity: 0.75;
+}
+.l-work .work-section{
+    margin-top: 8px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.l-work button{
+    padding: 12px 24px !important;
+    background-color: #f1f1f1;
+    color: black;
+    margin-top: 64px;
+    border: none;
+    outline: unset;
+    font-size: 15px;
+    cursor: pointer;
+}
+.l-work button:hover{
+    background-color: #ccc;
 }
