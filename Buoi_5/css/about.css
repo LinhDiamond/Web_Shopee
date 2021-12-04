@@ -1,0 +1,57 @@
+.l-about{
+    padding: 64px 5px;
+    margin: 0 184.5px;
+    font-size: 15px;
+}
+h3{
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 24px;
+    box-sizing: border-box;
+}
+.text-center{
+    text-align: center;
+}
+p{
+    margin: 15px 0;
+}
+/* phần thứ 2 */
+.l-about-row{
+    display: flex;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+.l-about-row .l-row-img{
+    padding: 12px 24px;
+}
+.l-about-row .l-row-img .row-img-myname{
+    text-align: center;
+    margin: 15px 0;
+}
+.icon-myname{
+    padding: 0 15px;
+}
+.l-about-row .l-row-text{
+    padding: 12px 24px;
+    margin: 15px 0;
+}
+.l-reallygood{
+    font-size: 18px;
+    padding: 16px 0;
+    margin: 18px 0 ;
+}
+.l-about-wide{
+    font-size: 15px;
+    letter-spacing: 10px;
+    margin: 15px 0;
+}
+.l-light{
+    background-color: #f1f1f1;
+    color: #fff;
+}
+.l-light .l-grey{
+    width: 90%;
+    background-color: #616161 !important;
+    padding: 4px 8px;
+    font-size: 15px;
+}

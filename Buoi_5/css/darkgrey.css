@@ -1,0 +1,15 @@
+.l-dark-grey{
+    padding: 16px 0;
+    background-color: #616161;
+    color: #fff;
+    display: flex;
+}
+.l-dark-grey .l-section{
+    width: 24.9999%;
+    margin: 16px;
+    font-size: 15px;
+    text-align: center;
+}
+.l-dark-grey .l-section span{
+    font-size: 24px;
+}

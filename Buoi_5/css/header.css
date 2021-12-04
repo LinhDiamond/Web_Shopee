@@ -1,0 +1,29 @@
+.l-img{
+    background-image: url('../content/img/parallax1.jpg');
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    opacity: 0.75;
+}
+.img-text{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    left: 50%;
+    display: flex ;
+    justify-content: center;
+    align-content: center;
+    color: #fff;
+    letter-spacing: 10px;
+}
+.l-text{
+    padding: 12px 24px ;
+    background-color: #000 !important;
+    display: flex ;
+}
+.img-text .text{
+    font-size: 24px !important;
+    padding-right: 10px;
+}

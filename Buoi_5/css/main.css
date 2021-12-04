@@ -1,0 +1,19 @@
+@import url('../css/menu.css');
+@import url('../css/header.css');
+@import url('../css/about.css');
+@import url('../css/darkgrey.css');
+@import url('../css/protofolio.css');
+@import url('../css/mywork.css');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+    font-family: sans-serif, Verdana;
+    box-sizing: border-box;
+}

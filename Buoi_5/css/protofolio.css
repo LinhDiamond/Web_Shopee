@@ -1,0 +1,20 @@
+.l-protfolio{
+    width: 100%;
+    min-height: 400px;
+    background-image: url('../content/img/parallax2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    position: relative;
+}
+.l-protfolio span{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 10px;
+    font-size: 36px;
+    color: #fff;
+}
