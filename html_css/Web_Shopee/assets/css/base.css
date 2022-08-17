@@ -7,6 +7,7 @@
     --height-header: 120px;
     --height-nav: 36px;
     --height-remaining: calc(var(--height-header) - var(--height-nav));
+    --height-sort-bar: 46px;
 }
 
 *{
@@ -34,11 +35,6 @@ html{
     margin-top: 64px;
 }
 
-.grid{
-    width: 1200px;
-    max-width: 100%;
-    margin: 0 auto;
-}
 .grid__full-width{
     width: 100%;
 }
