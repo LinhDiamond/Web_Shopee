@@ -1,0 +1,83 @@
+/* PC */
+@media(min-width: 1024px){
+
+}
+
+/* Tablet */
+@media(min-width: 740px) and (max-width: 1023px){
+    #nav .subnav a{
+        padding: 0 24px;
+        line-height: 42px;
+    }
+
+}
+/* Tablet && PC*/
+@media(min-width: 740px){
+    .mobile-menu-btn{
+        display: none;
+    }
+}
+/* Tablet && Mobile */
+@media (max-width: 1023px){
+
+    #content .section-content{
+        margin: 0;
+    }
+
+    .btn{
+        padding: 16px 18px;
+    }
+    .contact-form .form-control {
+        padding: 16px;
+    }
+    #contact .contact-info {
+        line-height: 2;
+    }
+    #footer .list-social a{
+        padding: 12px 10px;
+    }
+
+    .modal-btn-close {
+        padding: 16px 18px;
+    }
+    .modal-close{
+        padding: 16px;
+    }
+}
+
+/* Mobile */
+@media(max-width: 739px){
+    .s-width-full,
+    .s-col-full{
+        width: 100% !important;
+    }
+
+    #header{
+        overflow: hidden;
+    }
+    #header .search-btn{
+        display: none;
+    }
+
+    #nav,
+    #nav >li{
+       display: block; 
+    }
+    #nav >li:first-child{
+        display: inline-block;
+    }
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding: 0 40px;
+        line-height: 42px;
+    }
+
+    #contact .contact-info{
+        margin-bottom: 16px;
+    }
+    
+}
