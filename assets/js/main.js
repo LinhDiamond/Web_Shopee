@@ -97,18 +97,10 @@ const likeEmpty = document.querySelector('.products-item__like-icon--empty')
 const likeFill = document.querySelector('.products-item__like-icon--fill')
 
 // Lỗi nút like sản phẩm
-likeEmpty.addEventListener('click', function(event){
-    for(const likeProduct of likeProducts)
-    {
-        this.likeProduct.classList.add('products-item__like--clicked')
-        event.stopImmediatePropagation;
-    }
+likeProducts.forEach(function (product) {
+    product.addEventListener('click', function (e) {
+        product.classList.toggle('products-item__like--clicked')
+        e.preventDefault();
+    })
 })
-likeFill.addEventListener('click', function(event){
-    for (const likeProduct of likeProducts)
-    {
-        
-        this.likeProduct.classList.remove('products-item__like--clicked')
-        event.stopImmediatePropagation;
-    }
-})
+// console.log(likeProducts)
