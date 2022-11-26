@@ -9,14 +9,15 @@ const authForms = document.querySelectorAll('.auth-form')
     // Mở Form đăng kí 
     function openFormResgiter(){
         modal.classList.add('open')
-        formResgiter.classList.add('open-form')
+        formResgiter.classList.add('open-form-resgiter')
+        // formResgiter.classList.toggle('open-form')
     }
     btnResgiter.addEventListener('click',openFormResgiter)
 
     // Hàm Đóng Form đăng kí
     function closeFormResgiter(){
         modal.classList.remove('open')
-        formResgiter.classList.remove('open-form')
+        formResgiter.classList.remove('open-form-resgiter')
     }
     
 // Đăng nhập
@@ -26,14 +27,14 @@ const authForms = document.querySelectorAll('.auth-form')
     // Mở Form đăng nhập
     function openFormLogin(){
         modal.classList.add('open')
-        formLogin.classList.add('open-form')
+        formLogin.classList.add('open-form-login')
     }
     btnLogin.addEventListener('click',openFormLogin)
     
     // Hàm Đóng Form đăng nhập
     function closeFormLogin(){
         modal.classList.remove('open')
-        formLogin.classList.remove('open-form')
+        formLogin.classList.remove('open-form-login')
     }
 
 // Đóng form Đăng nhập và đăng ký
@@ -75,6 +76,7 @@ function loginUser(){
     }
     userNav.classList.add('open')
     modal.classList.remove('open')
+    formLogin.classList.remove('open-form-login')
 }
 btnLoginUser.addEventListener('click',loginUser)
 
@@ -95,18 +97,10 @@ const likeEmpty = document.querySelector('.products-item__like-icon--empty')
 const likeFill = document.querySelector('.products-item__like-icon--fill')
 
 // Lỗi nút like sản phẩm
-likeEmpty.addEventListener('click', function(event){
-    for(const likeProduct of likeProducts)
-    {
-        this.likeProduct.classList.add('products-item__like--clicked')
-        event.stopImmediatePropagation;
-    }
+likeProducts.forEach(function (product) {
+    product.addEventListener('click', function (e) {
+        product.classList.toggle('products-item__like--clicked')
+        e.preventDefault();
+    })
 })
-likeFill.addEventListener('click', function(event){
-    for (const likeProduct of likeProducts)
-    {
-        
-        this.likeProduct.classList.remove('products-item__like--clicked')
-        event.stopImmediatePropagation;
-    }
-})
+

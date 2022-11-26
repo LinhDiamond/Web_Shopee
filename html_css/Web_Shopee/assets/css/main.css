@@ -1398,10 +1398,10 @@
 
 
 /* javascript */
-.auth-form--resgiter.open-form{
+.auth-form--resgiter.open-form-resgiter{
     display: block;
 }
-.auth-form--login.open-form{
+.auth-form--login.open-form-login{
     display: block;
 }
 

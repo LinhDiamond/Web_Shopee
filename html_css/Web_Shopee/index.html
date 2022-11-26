@@ -1494,13 +1494,13 @@
 
                     <div class="auth-form__form">
                         <div class="auth-form__group mt-16 ">
-                            <input type="text" name="" class="auth-form__input" placeholder="Email của bạn">
+                            <input type="text" name="" rules="required|email" class="auth-form__input" placeholder="Email của bạn">
                         </div>
                         <div class="auth-form__group mt-16">
-                            <input type="password" name="" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                            <input type="password" name="" rules="required|min:6" class="auth-form__input" placeholder="Mật khẩu của bạn">
                         </div>
                         <div class="auth-form__group mt-16">
-                            <input type="password" name="" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                            <input type="password" name="" rules="required" class="auth-form__input" placeholder="Nhập lại mật khẩu">
                         </div>
                     </div>
 
@@ -1542,12 +1542,12 @@
                         <span class="auth-form__switch-btn js-switch-resgiter">Đăng ký</span>
                     </div>
 
-                    <div class="auth-form__form">
+                    <div class="auth-form__form ">
                         <div class="auth-form__group mt-16 ">
-                            <input type="text" name="" class="auth-form__input" placeholder="Email/Số điện thoại của bạn">
+                            <input type="text" name="" rules="required" class="auth-form__input" placeholder="Email/Số điện thoại của bạn">
                         </div>
                         <div class="auth-form__group mt-16">
-                            <input type="password" name="" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                            <input type="password" name="" rules="required" class="auth-form__input" placeholder="Mật khẩu của bạn">
                         </div>
                     </div>
 
