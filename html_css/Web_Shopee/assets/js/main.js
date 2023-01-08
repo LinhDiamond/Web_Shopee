@@ -96,7 +96,6 @@ const likeProducts = document.querySelectorAll('.js-products-item__like')
 const likeEmpty = document.querySelector('.products-item__like-icon--empty')
 const likeFill = document.querySelector('.products-item__like-icon--fill')
 
-// Lỗi nút like sản phẩm
 likeProducts.forEach(function (product) {
     product.addEventListener('click', function (e) {
         product.classList.toggle('products-item__like--clicked')
